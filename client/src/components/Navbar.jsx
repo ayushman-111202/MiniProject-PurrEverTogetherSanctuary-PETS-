@@ -45,7 +45,7 @@ const Navbar = () => {
                             <div>
                                 <Link
                                     className="relative inline-block text-black focus:outline-none before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 dark:text-white"
-                                    href="#"
+                                    href="/"
                                     aria-current="page"
                                 >
                                     Home
@@ -141,18 +141,20 @@ const Navbar = () => {
                     {/* Button Group */}
                     <div className="flex items-center gap-x-1 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-4 md:col-span-4">
 
-                        <button
+                        <Link
                             type="button"
+                            href='signup'
                             className="py-2 px-3 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-blue-400 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
                         >
                             Sign up
-                        </button>
-                        <button
+                        </Link>
+                        <Link
                             type="button"
+                            href='signin'
                             className="py-2 px-3 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-green-400 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
                         >
                             Sign in
-                        </button>
+                        </Link>
 
                         <div className="md:hidden">
                             <button
