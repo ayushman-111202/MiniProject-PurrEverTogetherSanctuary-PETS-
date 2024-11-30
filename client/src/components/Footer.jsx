@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
                             <div className="mx-auto max-w-sm lg:max-w-none">
-                                <p className="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
+                                <p className="mt-4 text-center text-gray-700 lg:text-left lg:text-lg">
                                     Follow our social handles to keep yourself updated about adaptions, donations, events, incoming members, collaborations and many more...
                                 </p>
                                 <div className="mt-6 flex justify-center gap-4 lg:justify-start">
@@ -120,6 +120,44 @@ const Footer = () => {
                             </div>
                             <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
                                 <div>
+                                    <strong className="font-medium text-gray-900"> PETS </strong>
+                                    <ul className="mt-6 space-y-1">
+                                        <li>
+                                            <a
+                                                className="text-gray-700 transition hover:text-gray-700/75"
+                                                href="#"
+                                            >
+                                                {" "}
+                                                Home{" "}
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                className="text-gray-700 transition hover:text-gray-700/75"
+                                                href="#"
+                                            >
+                                                About
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                className="text-gray-700 transition hover:text-gray-700/75"
+                                                href="#"
+                                            >
+                                                Browse-Pets
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                className="text-gray-700 transition hover:text-gray-700/75"
+                                                href="#"
+                                            >
+                                                Feed In Need
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
                                     <strong className="font-medium text-gray-900"> Services </strong>
                                     <ul className="mt-6 space-y-1">
                                         <li>
@@ -128,45 +166,7 @@ const Footer = () => {
                                                 href="#"
                                             >
                                                 {" "}
-                                                Marketing{" "}
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="text-gray-700 transition hover:text-gray-700/75"
-                                                href="#"
-                                            >
-                                                Graphic Design
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="text-gray-700 transition hover:text-gray-700/75"
-                                                href="#"
-                                            >
-                                                App Development
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="text-gray-700 transition hover:text-gray-700/75"
-                                                href="#"
-                                            >
-                                                Web Development
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <strong className="font-medium text-gray-900"> About </strong>
-                                    <ul className="mt-6 space-y-1">
-                                        <li>
-                                            <a
-                                                className="text-gray-700 transition hover:text-gray-700/75"
-                                                href="#"
-                                            >
-                                                {" "}
-                                                About{" "}
+                                                Online Consulting{" "}
                                             </a>
                                         </li>
                                         <li>
@@ -175,7 +175,7 @@ const Footer = () => {
                                                 href="#"
                                             >
                                                 {" "}
-                                                Careers{" "}
+                                                Online Appointments{" "}
                                             </a>
                                         </li>
                                         <li>
@@ -184,7 +184,7 @@ const Footer = () => {
                                                 href="#"
                                             >
                                                 {" "}
-                                                History{" "}
+                                                Book a visit{" "}
                                             </a>
                                         </li>
                                         <li>
@@ -232,25 +232,22 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-16 border-t border-gray-100 pt-8">
+                        <div className="mt-16 border-t border-gray-600 pt-8">
                             <p className="text-center text-xs/relaxed text-gray-500">
-                                © Company 2022. All rights reserved.
+                                © 2024 All rights reserved.
                                 <br />
-                                Created with
+                                The PETS - PurrEverTogetherSanctuary
+                                <br />
+                                Created with ❤️ by &nbsp;
                                 <a
-                                    href="#"
+                                    href="https://www.linkedin.com/in/ayushman-111202-"
                                     className="text-gray-700 underline transition hover:text-gray-700/75"
                                 >
-                                    Laravel
+                                    Ayushman Shukla
                                 </a>
-                                and
-                                <a
-                                    href="#"
-                                    className="text-gray-700 underline transition hover:text-gray-700/75"
-                                >
-                                    Laravel Livewire
-                                </a>
-                                .
+                                &nbsp; and inspired by
+                                <br />
+                                Ossum&Possum - The Bunny Couple.
                             </p>
                         </div>
                     </div>
