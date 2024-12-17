@@ -2,43 +2,27 @@
 const express = require('express');
 const UserRouter = require('./router/userRouter');
 const PetRouter = require('./router/petRouter');
+const cors = require('cors');
+
 
 //creating an express app
 const app = express();
 const port = 5000;
 
 // middlewares
+app.use(cors({
+    origin:['http://localhost:3000']
+}));
 app.use(express.json());
 app.use('/pets',PetRouter);
-
+app.use('/users',UserRouter);
 
 //route or endpoints
 app.get('/',(req,res) => {
     res.send('response from express');
 });
 
-//add
-app.get('/add',(req,res) => {
-    res.send('response from add');
-});
-
-//getall
-app.get('/getall',(req,res) => {
-    res.send('response from getall');
-});
-
-//delete
-app.get('/delete',(req,res) => {
-    res.send('response from delete');
-});
-
-//update
-app.get('/update',(req,res) => {
-    res.send('response from update');
-});
-
 //starting the server
 app.listen(port, () => {
     console.log("Server Started");
 });
-

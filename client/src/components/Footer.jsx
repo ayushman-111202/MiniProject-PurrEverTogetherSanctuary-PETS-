@@ -3,14 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <>
-                {/*
-  Heads up! 👋
-
-  Plugins:
-    - @tailwindcss/forms
-*/}
-                <footer className="bg-gradient-to-b from-orange-300 to-slate-300">
+                <footer className="bg-gradient-to-b from-orange-300 ">
                     <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
                         <div className="mx-auto max-w-md">
                             <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
@@ -236,7 +229,7 @@ const Footer = () => {
                             <p className="text-center text-xs/relaxed text-gray-500">
                                 © 2024 All rights reserved.
                                 <br />
-                                The PETS - PurrEverTogetherSanctuary
+                                The PET - PurrEverTogetherSanctuary
                                 <br />
                                 Created with ❤️ by &nbsp;
                                 <a
@@ -252,8 +245,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </footer>
-            </>
-
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import { Icon24Hours, IconBowlChopsticks, IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconSoup } from '@tabler/icons-react'
+import { IconBowlChopsticks } from '@tabler/icons-react'
 import Link from 'next/link';
 import React from 'react'
 
@@ -55,9 +55,9 @@ const Navbar = () => {
                             <div>
                                 <Link
                                     className="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-                                    href="about"
+                                    href="about-us"
                                 >
-                                    About
+                                    About us
                                 </Link>
                             </div>
 
@@ -144,7 +144,7 @@ const Navbar = () => {
                         <Link
                             type="button"
                             href='feed-in-need'
-                            className="py-2 px-3 mr-8 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-orange-500 border border-orange-900 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
+                            className="py-2 px-3 mr-8 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-green-500 text-black hover:bg-green-300 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
                         >
                             Feed in need<IconBowlChopsticks/>
                         </Link>
@@ -152,7 +152,7 @@ const Navbar = () => {
                         <Link
                             type="button"
                             href='signup'
-                            className="py-2 px-3 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl border border-blue-900 bg-blue-400 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
+                            className="py-2 px-3 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-orange-400 text-black hover:bg-yellow-200 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
                         >
                             Sign up
                         </Link>
@@ -160,7 +160,7 @@ const Navbar = () => {
                         <Link
                             type="button"
                             href='signin'
-                            className="py-2 px-3 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-green-400 border border-green-900 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
+                            className="py-2 px-3 inline-flex items-center gap-x-2 text-md font-semibold rounded-xl bg-orange-400 text-black hover:bg-yellow-200 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:hover:bg-white/10 dark:text-white dark:hover:text-white dark:focus:text-black"
                         >
                             Sign in
                         </Link>

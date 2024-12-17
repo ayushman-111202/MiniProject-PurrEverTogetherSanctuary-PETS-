@@ -1,9 +1,11 @@
+import PetCard from '@/components/PetCard';
 import React from 'react'
 
 const BrowsePets = () => {
+
   return (
-    <div>
-      Browse Pets
+    <div className='bg-green1 '>
+      <PetCard />
     </div>
   )
 }
