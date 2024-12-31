@@ -75,8 +75,8 @@ const Signup = () => {
                   Create an Account!
                 </h3>
                 <form onSubmit={addUserForm.handleSubmit} className="px-4 pt-6 pb-4 mb-4 bg-white dark:bg-gray-800 rounded">
-                  <div className="mb-4 md:flex gap-4 flex-col md:justify-between">
-                    <div className=" ">
+                  <div className="mb-4 md:flex flex-col md:justify-between gap-12">
+                    <div className="">
                       <label
                         className="block text-sm font-bold text-gray-700 dark:text-white"
                         htmlFor="firstName"
@@ -194,7 +194,7 @@ const Signup = () => {
                             </p>
                           )
                         }
-                      </div>
+                      </div> 
                       <div className="">
                         <label
                           className="block text-sm font-bold text-gray-700 dark:text-white"
@@ -214,7 +214,7 @@ const Signup = () => {
                     </div>
                   </div>
 
-                  <div className="mb-6 text-center">
+                  <div className="mb-6 text-center mt-8">
                     <button
                       type="submit"
                       disabled={addUserForm.isSubmitting}

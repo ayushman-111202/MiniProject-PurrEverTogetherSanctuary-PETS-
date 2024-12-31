@@ -6,18 +6,19 @@ import React from 'react'
 const Signin = () => {
 
   const userLoginForm = useFormik({
-    initialValues : {
-      email : '',
-      password : '',
+    initialValues: {
+      email: '',
+      password: '',
     }
-    
+
   })
 
   return (
     <div>
-      <div className="flex h-screen bg-slate-100">
-        <div className="w-full max-w-xs m-auto bg-orange-300 rounded-xl p-5 shadow-xl shadow-slate-500">
-          <header>
+      <div className="flex h-screen w-full bg-slate-100">
+        <div className="w-1/2 h-3/5 m-auto bg-orange-300 rounded-xl p-5 shadow-xl gap-20 shadow-slate-500">
+          <header className='gap-10'>
+            <p className='text-center text-slate-700 text-4xl font-bold'>PurrEverTogetherSanctuary</p>
             <img
               className="w-20 mx-auto mb-5"
               src="favicon.png"
@@ -51,7 +52,7 @@ const Signin = () => {
             <div>
               <input
                 onSubmit={userLoginForm.handleSubmit}
-                className="w-full bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-4 mb-6 rounded"
+                className="mt-20 w-full bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-4 mb-6 rounded"
                 type="submit"
               />
             </div>

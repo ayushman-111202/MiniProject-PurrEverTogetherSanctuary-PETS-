@@ -4,7 +4,7 @@ import React from 'react'
 const BrowsePets = () => {
 
   return (
-    <div className='bg-green1 '>
+    <div className='bg-green-100 '>
       <PetCard />
     </div>
   )

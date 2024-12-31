@@ -3,37 +3,37 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <div className='bg-yellow-100 h-[50vh] w-full flex gap-10 p-10 items-center justify-center'>
+      <div className='bg-gradient-to-b from-green4 to-green3 h-[50vh] w-full flex gap-10 p-10 items-center justify-center'>
         <h1 className='text-5xl text-orange-600 bg-orange-200 font-bold border border-orange-900 h-full flex items-center w-3/5 justify-center rounded-full'>Mission</h1>
-        <p className='text-3xl text-stone-600'>Our mission is to provide a safe haven for stray, abandoned, and neglected animals, offering them care, love, and a second chance at life. We strive to promote animal welfare and inspire the community to treat all animals with kindness and respect.</p>
+        <p className='text-3xl text-white'>Our mission is to provide a safe haven for stray, abandoned, and neglected animals, offering them care, love, and a second chance at life. We strive to promote animal welfare and inspire the community to treat all animals with kindness and respect.</p>
       </div>
 
-      <div className='bg-yellow-50 h-[50vh] w-full flex gap-10 p-10 items-center justify-center'>
-        <p className='text-3xl text-stone-600'>We envision a world where every animal has a loving home and is treated with dignity and compassion. Through education, advocacy, and hands-on care, we aim to reduce the number of homeless animals and create a more compassionate society.</p>
+      <div className='bg-gradient-to-b from-green3 to-green2 h-[50vh] w-full flex gap-10 p-10 items-center justify-center'>
+        <p className='text-3xl text-white'>We envision a world where every animal has a loving home and is treated with dignity and compassion. Through education, advocacy, and hands-on care, we aim to reduce the number of homeless animals and create a more compassionate society.</p>
         <h1 className='text-5xl text-orange-600 bg-orange-200 font-bold border border-orange-900 h-full flex items-center w-3/5 justify-center rounded-full'>Vision</h1>
       </div>
 
-      <div className='h-[50vh] w-full flex flex-col gap-10 p-10 justify-center items-center bg-gray-200'>
+      <div className='h-[50vh] w-full flex flex-col gap-10 p-10 justify-center items-center bg-gradient-to-b from-green2 to-cyan-400'>
         <h1 className='text-5xl text-black font-bold h-1/3 flex items-center rounded-3xl'>Values</h1>
         <ul className='h-2/3 flex gap-10 justify-between w-full text-center'>
-          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-white'>
-            <h2 className='bg-rose-400 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Compassion</h2>
+          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-yellow-100'>
+            <h2 className='bg-yellow-300 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Compassion</h2>
             <p className='text-black text-md italic'>We are committed to treating all animals with empathy and kindness.</p>
           </li>
-          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-white'>
-            <h2 className='bg-rose-400 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Education</h2>
+          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-yellow-100'>
+            <h2 className='bg-yellow-300 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Education</h2>
             <p className='text-black text-md italic'>We promote awareness and understanding of animal welfare issues.</p>
           </li>
-          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-white'>
-            <h2 className='bg-rose-400 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Dedication</h2>
+          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-yellow-100'>
+            <h2 className='bg-yellow-300 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Dedication</h2>
             <p className='text-black text-md italic'>We tirelessly work to improve the lives of animals in our care.</p>
           </li>
-          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-white'>
-            <h2 className='bg-rose-400 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Integrity</h2>
+          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-yellow-100'>
+            <h2 className='bg-yellow-300 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Integrity</h2>
             <p className='text-black text-md italic'>We maintain transparency and honesty in all our actions.</p>
           </li>
-          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-white'>
-            <h2 className='bg-rose-400 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Community</h2>
+          <li className='w-1/4 h-auto shadow-2xl rounded-2xl flex flex-col gap-7 bg-yellow-100'>
+            <h2 className='bg-yellow-300 h-1/4 text-center justify-center flex items-center text-2xl font-bold rounded-t-2xl'>Community</h2>
             <p className='text-black text-md italic'>We believe in the power of community and collaboration to achieve our goals.</p>
           </li>
         </ul>
