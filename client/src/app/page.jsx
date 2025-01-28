@@ -70,42 +70,42 @@ const Home = () => {
 
 
       {/* gallery */}
-      <div className='flex flex-wrap h-[60vh] justify-center items-center w-full gap-4 md:gap-6 lg:gap-7'>
+        <div className='flex flex-wrap h-[60vh] justify-center items-center w-full gap-4 md:gap-6 lg:gap-7'>
 
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="cat.jpg" alt="Cat" />
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="cat.jpg" alt="Cat" />
+          </div>
+
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="cow.jpg" alt="Cow" />
+          </div>
+
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="parrot.jpg" alt="Parrot" />
+          </div>
+
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="dog.jpg" alt="Dog" />
+          </div>
+
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="cat (2).jpg" alt="Cat 2" />
+          </div>
+
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="horse.jpg" alt="Horse" />
+          </div>
+
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="sparrow.jpg" alt="Sparrow" />
+          </div>
+
+          <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none transition-all duration-300'>
+            <img className='object-cover h-full w-full' src="bunnies.jpg" alt="Bunnies" />
+          </div>
         </div>
 
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="cow.jpg" alt="Cow" />
-        </div>
-
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="parrot.jpg" alt="Parrot" />
-        </div>
-
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="dog.jpg" alt="Dog" />
-        </div>
-
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="cat (2).jpg" alt="Cat 2" />
-        </div>
-
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="horse.jpg" alt="Horse" />
-        </div>
-
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="sparrow.jpg" alt="Sparrow" />
-        </div>
-
-        <div className='h-3/5 w-[20%] sm:w-[15%] md:w-[12%] lg:w-[9%] hover:h-4/5 hover:w-[25%] sm:hover:w-[20%] md:hover:w-[18%] hover:ease-linear blur-sm hover:blur-none'>
-          <img className='object-cover h-full w-full' src="bunnies.jpg" alt="Bunnies" />
-        </div>
-      </div>
-
-      {/* gallery end */}
+        {/* gallery end */}
 
       {/* adopt section */}
       <div className='flex w-full h-[80vh] bg-gradient-to-b from-green3 to-green2 justify-center items-center'>

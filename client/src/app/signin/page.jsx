@@ -15,7 +15,7 @@ const Signin = () => {
 
   return (
     <div>
-      <div className="flex h-screen w-full bg-slate-100">
+      <div className="flex h-screen w-full bg-orange-100">
         <div className="w-1/2 h-3/5 m-auto bg-orange-300 rounded-xl p-5 shadow-xl gap-20 shadow-slate-500">
           <header className='gap-10'>
             <p className='text-center text-slate-700 text-4xl font-bold'>PurrEverTogetherSanctuary</p>

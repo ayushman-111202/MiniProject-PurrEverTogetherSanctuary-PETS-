@@ -24,7 +24,7 @@ const Inspiration = () => {
                 Follow
               </button>
               <button className="flex w-full items-center justify-center gap-2 rounded-2xl bg-white p-5 py-3 font-semibold">
-                Resume
+                Contribute your own BLOG!
               </button>
             </div>
           </div>

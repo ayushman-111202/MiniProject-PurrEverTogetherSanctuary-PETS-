@@ -40,7 +40,7 @@ const AddPets = () => {
                 .then((result) => {
                     toast.success("Pet added Successfully!")
                     resetForm();
-                    router.push('/manage-pets');
+                    router.push('/browse-pets');
                 }).catch((err) => {
                     toast.error("Something went wrong!")
                     setSubmitting(false);

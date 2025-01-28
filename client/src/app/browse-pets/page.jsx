@@ -4,8 +4,8 @@ import React from 'react'
 const BrowsePets = () => {
 
   return (
-    <div className='bg-green-100 '>
-      <PetCard />
+    <div className='bg-orange-100 '>
+      <PetCard pageType="browse" />
     </div>
   )
 }
