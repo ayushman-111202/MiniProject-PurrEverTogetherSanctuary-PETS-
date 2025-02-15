@@ -1,6 +1,7 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 
-const url = "mongodb+srv://firstDB:ayushman111202@cluster0.d2gs7.mongodb.net/PETS-DB?retryWrites=true&w=majority&appName=Cluster0";
+const url = process.env.MONGO_URL;
 
 
 //asynchronous function - returns Promise
