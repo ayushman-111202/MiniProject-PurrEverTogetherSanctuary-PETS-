@@ -102,7 +102,6 @@ import React, { useEffect, useState } from 'react'
 
 const PetCard = ({ pageType }) => {
     const [petList, setPetList] = useState([]);
-    const [isDarkMode, setIsDarkMode] = useState(false); // State to manage dark mode toggle
 
     const fetchPetcard = async () => {
         const res = await axios.get('http://localhost:5000/pets/getall');

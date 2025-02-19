@@ -58,7 +58,9 @@ const AddPets = () => {
         formData.append('upload_preset', 'PETS_pets');
         formData.append('cloud_name', 'dqhmkuc7f');
 
-        const res = await axios.post('https://api.cloudinary.com/v1_1/dqhmkuc7f/image/upload', formData);
+        const apiUrl = process.env.CLOUDINARY_URL;
+
+        const res = await axios.post(apiUrl, formData);
         if (res.status === 200) {
             addPetForm.setFieldValue('image', res.data.url);
             console.log(res.data);
