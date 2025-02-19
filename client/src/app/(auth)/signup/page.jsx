@@ -3,7 +3,7 @@ import { IconCheck, IconLoader3 } from '@tabler/icons-react';
 import axios from 'axios';
 import { useFormik } from 'formik';
 import { useRouter } from 'next/navigation';
-import React, { useContext } from 'react';
+import React from 'react';
 import toast from 'react-hot-toast';
 import * as Yup from 'yup';
 
@@ -66,7 +66,7 @@ const Signup = () => {
           {/* Row */}
           <div className="w-full xl:w-3/4 lg:w-11/12 flex rounded-l-3xl">
             {/* Image Section */}
-            <div className="w-full h-4/5 bg-orange-100 dark:bg-gray-800 hidden lg:block lg:w-5/12 bg-cover rounded-l-3xl">
+            <div className="w-full h-4/5 bg-orange-100 dark:bg-gray-900 hidden lg:block lg:w-5/12 bg-cover rounded-l-3xl">
               <img src="paw.jpg" alt="Paw" className="rounded-3xl h-full w-auto" />
             </div>
 
@@ -107,7 +107,7 @@ const Signup = () => {
                   <button
                     type="submit"
                     disabled={addUserForm.isSubmitting}
-                    className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 dark:bg-blue-700 dark:text-white dark:hover:bg-blue-900 focus:outline-none focus:shadow-outline flex items-center justify-center"
+                    className="flex justify-center items-center mx-auto w-1/3 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 dark:bg-blue-700 dark:text-white dark:hover:bg-blue-900 focus:outline-none focus:shadow-outline"
                   >
                     {addUserForm.isSubmitting ? (
                       <IconLoader3 className="mx-5 animate-spin" />
