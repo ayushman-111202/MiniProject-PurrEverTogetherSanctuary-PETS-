@@ -14,7 +14,7 @@ This web application serves as a platform for the sanctuary, allowing users to:
 
 ## Logo
 
-![Logo](favicon.ico)
+![Logo](/client/src/app/favicon.ico)
 
 ---
 
@@ -84,15 +84,15 @@ This tech stack provides a solid foundation for building scalable, dynamic, and 
 
 ## Screenshots
 
-![Home/Landing Page](public/screenshots/1.png)
-![About Page](public/screenshots/2.png)
-![Browse Pets Page](public/screenshots/3.png)
-![Contact Page](public/screenshots/4.png)
-![Contact Map Page](public/screenshots/5.png)
-![Donation Page](public/screenshots/6.png)
-![Signup Page](public/screenshots/7.png)
-![Signin Page](public/screenshots/8.png)
-![Blog Page](public/screenshots/9.png)
+![Home/Landing Page](/client/public/screenshots/1.png)
+![About Page](/client/public/screenshots/2.png)
+![Browse Pets Page](/client/public/screenshots/3.png)
+![Contact Page](/client/public/screenshots/4.png)
+![Contact Map Page](/client/public/screenshots/5.png)
+![Donation Page](/client/public/screenshots/6.png)
+![Signup Page](/client/public/screenshots/7.png)
+![Signin Page](/client/public/screenshots/8.png)
+![Blog Page](/client/public/screenshots/9.png)
 
 
 ## Authors
